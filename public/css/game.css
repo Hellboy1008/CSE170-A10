@@ -4,6 +4,8 @@ html {
 
 body {
     background: #fffff0;
+    margin-bottom: 15px;
+    width: fit-content;
 }
 
 .header-bar {
@@ -117,10 +119,7 @@ body {
     margin: auto;
 }
 
-@media screen and (max-width: 812px) {
-    body {
-        margin-bottom: 15px;
-    }
+@media screen and (max-width: 426px) {
     .header-bar {
         padding-bottom: 10px;
     }
@@ -128,12 +127,14 @@ body {
         margin-top: 30px;
         margin-left: 15px;
         position: absolute;
+        font-size: 35px;
+        margin-bottom: 15px;
     }
     .searchbar {
         width: 150px;
         position: relative;
-        margin-top: 35px;
-        margin-left: 220px;
+        margin-top: 40px;
+        margin-left: 270px;
         left: -20px;
     }
     .searchbar input {
@@ -151,7 +152,7 @@ body {
     }
     .tabs {
         padding-top: 10px;
-        padding-left: 5px;
+        padding-left: 30px;
         padding-right: 5px;
         border-radius: 4px;
     }
@@ -170,7 +171,7 @@ body {
     }
     .dropdown-menu {
         min-width: 90px;
-        left: 117px;
+        left: 142px;
         border-radius: 4px;
         padding-bottom: 0px;
         background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
@@ -205,11 +206,11 @@ body {
     }
     .buy-game {
         margin-top: 10px;
-        margin-left: 40px;
+        margin-left: 60px;
     }
     .game-rating {
         font-size: 18px;
-        margin-left: 125px;
+        margin-left: 155px;
     }
     .gamepic {
         align-items: center;
@@ -230,5 +231,27 @@ body {
     .gamevid {
         margin-top: 20px;
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .header {
+        font-size: 30px !important;
+    }
+    .searchbar {
+        margin-left: 230px !important;
+        margin-top: 35px !important;
+    }
+    .tabs {
+        padding-left: 5px !important;
+    }
+    .dropdown-menu {
+        left: 117px !important;
+    }
+    .buy-game {
+        margin-left: 40px !important;
+    }
+    .game-rating {
+        margin-left: 125px !important;
     }
 }

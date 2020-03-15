@@ -4,6 +4,8 @@ html {
 
 body {
     background: #fffff0;
+    margin-bottom: 15px;
+    width: fit-content;
 }
 
 .topimg {
@@ -43,9 +45,10 @@ body {
     display: inline;
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 426px) {
     .topimg {
         width: 15%;
+        margin-left: 3px;
     }
     .topimgbig {
         width: 12%;
@@ -54,7 +57,7 @@ body {
         margin-top: 15px;
     }
     .headertxt {
-        font-size: 40px;
+        font-size: 47px;
         margin-left: 1px;
         margin-right: 1px;
         top: 40px;
@@ -76,9 +79,33 @@ body {
         width: 55px;
     }
     .fb {
-        margin-left: 135px;
+        margin-left: 155px;
     }
     .insta {
         margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .topimg {
+        margin-left: 5px !important;
+    }
+    .headertxt {
+        font-size: 40px !important;
+    }
+    .fb {
+        margin-left: 130px !important;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .topimg {
+        margin-left: 2px !important;
+    }
+    .headertxt {
+        font-size: 35px !important;
+    }
+    .fb {
+        margin-left: 103px !important;
     }
 }
